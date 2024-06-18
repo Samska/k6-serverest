@@ -8,7 +8,7 @@ This is a sample project using K6 API Load testing in the application https://se
 ## Pre-requisites
 
 * Git
-* Node v16
+* Node
 * K6 - https://k6.io/docs/get-started/installation/
 
 ## Install
