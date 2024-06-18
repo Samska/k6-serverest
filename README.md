@@ -16,7 +16,7 @@ This is a sample project using K6 API Load testing in the application https://se
 Clone this repo
 
 ```bash
-  git clone https://github.com/Samska/playwright-serverest
+  git clone https://github.com/Samska/k6-serverest
 ```
 
 Install the dependencies
