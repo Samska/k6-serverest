@@ -27,7 +27,7 @@ Install the dependencies
 
 ## Running the tests/scripts
 
-`npx run start:server` - Start serverest server application
+`npm run start:server` - Start serverest server application
 
 `npm run test:load` - Clean the reports folder, run the e2e-load-test.js and creates the json and html reports inside /reports
 
