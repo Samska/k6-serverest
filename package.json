@@ -11,6 +11,6 @@
   "scripts": {
     "start:server": "npx serverest --nodoc",
     "clean": "rm -rf reports/*",
-    "test:load": "npm run clean && k6 run tests/e2e-load-test.js"
+    "test:load": "npm run clean && k6 run --out json=reports/test-results.json tests/e2e-load-test.js"
   }
 }

@@ -1,10 +1,11 @@
 import { check, sleep } from "k6";
 import { options } from "../k6-config.js";
 import { baseURL } from "../config/config.js";
-import { postRequest, deleteRequest, handleSummary } from "../support/helpers.js";
+import { postRequest, deleteRequest } from "../support/helpers.js";
 import { createUserBody } from "../data/userBody.js";
 import { createProductBody } from "../data/productBody.js";
 import { createCartBody } from "../data/cartBody.js";
+import { htmlReport } from "https://raw.githubusercontent.com/benc-uk/k6-reporter/main/dist/bundle.js";
 
 export { options };
 
@@ -62,4 +63,8 @@ export default function () {
   });
 }
 
-export { handleSummary };
+export function handleSummary(data) {
+  return {
+    "reports/test-summary.html": htmlReport(data),
+  };
+}
