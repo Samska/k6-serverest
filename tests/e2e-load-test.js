@@ -1,5 +1,5 @@
 import { check, sleep } from "k6";
-import { options } from "../k6-config.js";
+import { options } from "../k6.config.js";
 import { baseURL } from "../config/config.js";
 import { postRequest, deleteRequest, handleSummary } from "../support/helpers.js";
 import { createUserBody } from "../data/userBody.js";
