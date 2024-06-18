@@ -1,4 +1,4 @@
-[![Playwright Tests](https://github.com/Samska/k6-serverest/actions/workflows/k6.yml/badge.svg)](https://github.com/Samska/k6-serverest/actions/workflows/k6.yml)
+[![K6 Tests](https://github.com/Samska/k6-serverest/actions/workflows/k6.yml/badge.svg)](https://github.com/Samska/k6-serverest/actions/workflows/k6.yml)
 [![Badge ServeRest](https://img.shields.io/badge/API-ServeRest-green)](https://github.com/ServeRest/ServeRest/)
 
 # K6 Serverest
